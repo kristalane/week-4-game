@@ -4,8 +4,8 @@ $(document).ready(function(){
 
   // Define variables for initial state of game
     var numberToMatch;
-    var win = 0;
-    var loss = 0;
+    var wins = 0;
+    var losses = 0;
     var yourScore;
     var CrystalValue = [];
 
@@ -50,12 +50,14 @@ $(document).ready(function(){
   // Write checkHasWon function to equal a score === the random number chosen.
     function checkHasWon() {
       if (yourScore === numberToMatch) {
-        $('#win').text(win ++);
+        wins++;
+        $('#wins').text(wins);
         alert("you won: what a great crystal collector you are!");
         resetGame();
       }
       else if (yourScore > numberToMatch) {
-        $('#loss').text(loss ++);
+        losses++;
+        $('#losses').text(losses);
         alert("You lost: not so great at collecting crystals, eh?");
         resetGame();
       }

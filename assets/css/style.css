@@ -9,6 +9,11 @@
   color: white;
 }
 
+.random-number {
+  background-color: pink;
+  font-size: 40px;
+  font-weight: bold;
+}
 
 .button {
   float: left;
@@ -17,7 +22,7 @@
 .stats {
   background-color: lightblue;
   font-size: 20px;
-
+  float: left;
 }
 
 .score-text {
