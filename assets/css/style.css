@@ -1,4 +1,8 @@
 
+body {
+  background-image: url("https://ak2.picdn.net/shutterstock/videos/7034680/thumb/1.jpg");
+}
+
 #Game-Name {
   background-color: pink;
 }
@@ -35,6 +39,6 @@
 #yourScore {
   background-color: pink;
   float: left;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
 }
